@@ -4,7 +4,7 @@
     using Shouldly;
     using TestStack.BDDfy;
 
-    public class Subtract
+    internal class Subtract
     {
         private readonly Calculator calculator = new Calculator();
         private readonly Values values = new Values();
@@ -12,7 +12,7 @@
         [Test]
         [TestCase(1, 1, 0)]
         [TestCase(3.2, 2.3, 0.9)]
-        [TestCase(5.5, 6.6,-1.1)]
+        [TestCase(5.5, 6.6, -1.1)]
         public void ShouldBeAbleToSubtractTwoNumbers(decimal value1, decimal value2, decimal result)
         {
             this.Given(_ => _.GivenIHaveTwoValues(value1, value2))

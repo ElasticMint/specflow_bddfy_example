@@ -4,7 +4,7 @@
     using Shouldly;
     using TestStack.BDDfy;
 
-    public class Multiply
+    internal class Multiply
     {
         private readonly Calculator calculator = new Calculator();
         private readonly Values values = new Values();

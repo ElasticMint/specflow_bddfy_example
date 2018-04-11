@@ -4,7 +4,7 @@ namespace CalculatorService.Bddfy.Tests
     using Shouldly;
     using TestStack.BDDfy;
 
-    public class Divide
+    internal class Divide
     {
         private readonly Calculator calculator = new Calculator();
         private readonly Values values = new Values();
