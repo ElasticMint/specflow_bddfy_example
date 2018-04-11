@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.ncrunchsolution
+*.user
+/CalculatorService/packages
+bin
+obj
+.vs
+*.feature.cs
